@@ -77,10 +77,7 @@ movies = [
 ]
 
 def average(movie):
-    """"
-    summa = sum(mov.get('imdb') for mov in movies)
-    result = summa/ len(movie)
-    return result """
+
     
     for movi in movie:
         sum += movi.get('imdb')
