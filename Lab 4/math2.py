@@ -6,6 +6,6 @@ h = float(input("Height: "))
 a = float(input("Base, first value: "))
 b = float(input("Base, second value: "))
 
-area = area_trapezoid(a, b, h)
+area = area_trapezoid(h, a, b)
 
 print("Expected Output: ", area)
