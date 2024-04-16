@@ -8,9 +8,9 @@ WIDTH, HEIGHT = 600, 600
 window = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("mickey mouse clock")
 
-mickey_img = pygame.image.load("mickey.png")
-right_arm_img = pygame.image.load("right.png")
-left_arm_img = pygame.image.load("left.png")
+mickey_img = pygame.image.load(r"C:\PP2\Lab 7\mickey.png")
+right_arm_img = pygame.image.load(r"C:\PP2\Lab 7\right.png")
+left_arm_img = pygame.image.load(r"C:\PP2\Lab 7\left.png")
 
 right_angle = 0
 left_angle = 0
